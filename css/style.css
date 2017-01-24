@@ -1,0 +1,993 @@
+
+body{
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+
+}
+
+img{
+
+	display: block;
+	max-width: 100%;
+}
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+
+/*******  top header section start  *******/
+
+#top_header_section{
+
+	padding: 16px 0;
+
+}
+
+.container{
+
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.adderss{
+
+	float: left;
+	width: 50%;
+}
+
+
+.adderss ul{
+
+	margin: 0;
+	padding: 0;
+}
+
+.adderss ul li{
+
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+	font-size: 14px;
+	font-family: 'Arsenal', sans-serif;
+	color: #77726F;
+}
+
+.top_menu{
+
+	float:left;
+	width: 50%;
+}
+
+.top_menu ul{
+
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+.top_menu ul li{
+
+	list-style: none;
+	float: left;
+}
+
+.top_menu ul li a{
+
+	text-decoration: none;
+    color: #463F3A;
+    padding-left: 28px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    font-family: 'Arsenal', sans-serif;
+
+}
+
+.top_menu ul li a:hover{}
+
+
+/*******  top header section end  *******/
+
+
+
+/*******  header section start  *******/
+
+#header_section{
+
+	    background: #F5F6F1;
+	    padding:35px 0;
+}
+
+.logo{
+
+	float: left;
+	width: 20%;
+}
+
+.logo .logo_text{
+
+	float: left;
+	margin-right: 5px;
+}
+
+.logo .logo_text h1{
+
+	margin: 0;
+	font-size: 45px;
+	text-transform:uppercase;
+	line-height: 1; 
+}
+
+.logo .logo_text p{
+
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+.logo .logo_img{
+
+	float: left;
+	padding-top:6px; 
+}
+
+.logo .logo_img img{
+
+	
+}
+
+.main_menu{
+
+	width: 60%;
+	float: left;
+	
+}
+
+.main_menu ul{
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.main_menu ul li{
+
+	list-style: none;
+	display: inline-block;
+}
+
+.main_menu ul li a{
+
+	font-family: 'Arsenal', sans-serif;
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    padding: 18px 15px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.main_menu ul li{
+
+	position: relative;
+}
+
+.main_menu ul li:after{
+	position: absolute;
+	content: "/";
+	top: 50%;
+	right: -5px;
+	color: #F56D6B;
+	transform: translatey(-50%);
+	height: 23px;
+}
+
+.main_menu ul li:last-child:after{
+
+	content: "";
+}
+
+.main_menu ul li a:hover{
+
+	color:#F56D6B; 
+}
+
+#header_section .container{
+
+	position: relative;
+}
+
+.add_cart{
+
+	width: 20%;
+    position: absolute;
+    top: 50%;
+    right: -126px;
+    transform: translateY(-50%);
+}
+
+
+.add_cart .add_cart_text{
+
+	float: left;
+    margin-right: 5px;
+
+}
+
+.add_cart .add_cart_text span{
+
+	font-size: 17px;
+	font-family: 'Arsenal', sans-serif;
+}
+ 
+.add_cart .add_cart_text p{
+
+	margin: 0;
+	font-size: 18px;
+	line-height: 0.6;
+	font-weight: 600;
+	font-family: 'Arsenal', sans-serif;
+}
+
+.add_cart .cart_img{
+
+	float: left;
+	padding-top: 5px;
+}
+
+.cart_img img{}
+
+/*******  header section end  *******/
+
+
+
+/*******  slider section start  *******/
+
+#slider_section{
+
+	padding:30px 0;
+}
+
+.slider{
+
+	position: relative;
+}
+
+.slider img{}
+
+.shoes_menu{
+
+	position: absolute;
+    top: 50%;
+    left: 95px;
+    transform: translateY(-50%);
+}
+
+.shoes_menu ul{
+
+	margin: 0;
+	padding: 0;
+}
+
+.shoes_menu ul li{
+
+	list-style: none;
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.buler{
+
+	position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+/*******  slider section end  *******/
+
+
+/*******  features boxes section start  *******/
+
+
+#features_section{
+
+	margin-bottom: 30px;
+}
+
+.feature{
+
+	background: #F5F6F1;
+    float: left;
+    width: 31.35%;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.feature:nth-child(2){
+
+	margin: 0 35px;
+}
+
+.feature h1{
+
+	margin: 0;
+	font-size: 30px;
+}
+
+.feature p{
+
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Arsenal', sans-serif; 
+}
+
+.feature span{
+
+	color: #F55856;
+	font-weight: 600;
+}
+
+
+/*******  features boxes section end  *******/
+
+
+
+/*******  categoriy section start *******/
+
+
+#categoriy_section{
+
+	background: #F8F8F8;
+    border-top: 1px solid #EFF3F5;
+    border-bottom: 1px solid #EFF3F5;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+}
+
+.heading{
+
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.heading h1 span{
+
+	background: #f8f8f8;
+	z-index: 1;
+	padding: 0 5px;
+}
+
+.heading h1{
+
+	margin: 0;
+	position: relative;
+}
+
+.heading h1 span:after,.heading h1 span:before{
+
+	position: absolute;
+	content: "";
+}
+
+.heading h1 span:before{
+
+	height: 3px;
+    width: 100%;
+    background: #795a5a;
+    left: 0;
+    top: 45%;
+    z-index:-1;
+}
+
+.heading h1 span:after{
+
+	height: 1px;
+    width: 100%;
+    background: #afa1a1;
+    left: 0;
+    top: 54%;
+    z-index: -1;
+}
+
+
+.category{
+
+	float: left;
+	width: 32.2%;
+}
+
+.category img{
+
+	width: 100%;
+}
+
+.category:nth-child(3){
+
+	margin: 0 20px;
+}
+
+.cat_shoe_detail{
+
+	background: #fff;
+	padding: 25px 20px;
+}
+
+.cat_shoe_detail h2{
+
+	margin: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.cat_shoe_detail p{
+
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-family: 'Arsenal', sans-serif; 
+}
+
+.cat_shoe_detail a{
+
+	font-size: 20px;
+	text-decoration: none;
+	color: #F55856;
+	display: block; 
+	font-family: 'Arsenal', sans-serif; 
+	font-weight: 600;
+}
+
+/*******  categoriy section end  *******/
+
+
+
+
+/*******  our latest arrival section start  *******/
+
+
+#latest_arrival_section{
+
+	padding: 40px 0;
+}
+
+.our_latest{
+
+	float: left;
+    width: 24.36%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.arrival_img{
+
+	
+}
+
+.arrival_img img{
+
+	width: 100%;
+}
+
+.our_latest:nth-child(3){
+
+	margin: 0 10px;
+}
+
+.our_latest:nth-child(4){
+	
+	margin: 0 10px 0 0px;
+}
+
+.arrival_img span{
+
+	position: absolute;
+    top: 7px;
+    left: -21px;
+    background: rgba(169, 159, 159, 0.62);
+    transform: rotate(-50deg);
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+}
+
+.caption p{
+
+	margin: 0;
+	font-family: 'Arsenal', sans-serif;
+	padding: 10px 0;
+}
+
+.caption strong{
+
+	font-family: 'Arsenal', sans-serif;
+	font-weight: 600;
+}
+
+.caption button{
+
+    padding: 3px;
+    display: block;
+    width: 100%;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+    background: #463F3A;
+    color: #fff;
+    border: 1px solid #463F3A;
+
+
+}
+
+#latest_arrival_section .heading h1 span{
+
+	background: #fff;
+	z-index: 1;
+	padding: 0 5px;
+}
+
+
+/*******  our latest arrival section end  *******/
+
+
+
+/*******  feature product section start  *******/
+
+
+#feature_product_section{
+
+	background: #F8F8F8;
+    border-top: 1px solid #EFF3F5;
+    border-bottom: 1px solid #EFF3F5;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+}
+
+#blog_section .heading h1 span{
+
+	background: #fff;
+	z-index: 1;
+	padding: 0 5px;
+}
+
+.feature_product{
+
+	float: left;
+	width: 24.36%;
+	position: relative;
+    overflow: hidden;
+}
+
+.product_img{}
+
+.product_img img{
+
+	width: 100%;
+}
+
+.feature_product:nth-child(3){
+
+	margin: 0 10px;
+}
+
+.feature_product:nth-child(4){
+	
+	margin: 0 10px 0 0px;
+}
+
+.product_img span{
+
+	position: absolute;
+    top: 7px;
+    left: -21px;
+    background: rgba(169, 159, 159, 0.62);
+    transform: rotate(-50deg);
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+}
+
+
+.caption{}
+
+.caption strong{
+
+	font-family: 'Arsenal', sans-serif;
+	font-weight: 600;
+}
+
+.caption p{
+
+	margin: 0;
+	font-family: 'Arsenal', sans-serif;
+	padding: 10px 0;
+}
+
+.caption button{
+
+	padding: 3px;
+    display: block;
+    width: 100%;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+    background: #463F3A;
+    color: #fff;
+    border: 1px solid #463F3A;
+}
+
+
+
+
+/*******  feature product section end  *******/
+
+
+
+/*******  feature product section end  *******/
+
+
+#blog_section{
+
+	padding: 40px 0;
+}
+
+.latest_blog{
+
+	float: left;
+	width: 32.2%;
+}
+
+.latest_blog:nth-child(3){
+
+	margin: 0 20px;
+}
+
+.latest_blog img{
+
+	width: 100%;
+}
+
+.bog_detail{}
+
+.bog_detail h6{
+
+	margin: 10px 0;
+	font-size: 15px;
+	font-family: 'Arsenal', sans-serif;
+}
+
+.bog_detail p{
+
+	margin: 6px 0;
+	font-family: 'Arsenal', sans-serif;
+}
+
+.bog_detail a{
+
+	text-decoration: none;
+	color: #F67675;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-family: 'Arsenal', sans-serif;
+	font-weight: 
+}
+
+
+
+#blog_section .heading h1 span:before{
+
+	height: 3px;
+    width: 100%;
+    background: #795a5a;
+    left: 0;
+    top: 45%;
+    z-index:-1;
+}
+
+#blog_section .heading h1 span:after{
+
+	height: 1px;
+    width: 100%;
+    background: #d4c0c0;
+    left: 0;
+    top: 58%;
+    z-index: -1;
+}
+
+
+/*******  feature product section end  *******/
+
+
+
+/*******  footer text section start  *******/
+
+
+#footer_text_section{
+
+	background: #F2F2F0;
+	padding: 40px 0;
+}
+
+.footer_text{
+
+	text-align: center;
+}
+
+.footer_text h1{
+
+	margin: 0;
+	font-size: 35px;
+
+}
+
+.footer_text p{
+
+    margin: 0;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+}
+
+.footer_text a{
+
+	text-decoration: none;
+	color: #F67675;
+}
+
+
+/*******  footer text section end  *******/
+
+
+
+/*******  top footer section start  *******/
+
+
+#top_footer_section{
+
+	background: #463F3A;
+	padding: 40px 0;
+}
+
+.ft_logo{
+
+	float: left;
+    width: 20%;
+    margin-top: 4%;
+    transform: translateY(-45%);
+}
+
+.ft_logo_text{
+
+	float: left;
+	margin-right: 5px;
+}
+
+.ft_logo_text h1{
+
+	margin: 0;
+	font-size: 45px;
+	text-transform:uppercase;
+	line-height: 1; 
+	color: #fff !important;
+}
+
+
+.ft_logo_text p{
+
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #fff !important;
+}
+
+.ft_logo_img{
+
+	float: left;
+	padding-top:6px; 
+}
+
+
+.ft_logo_img img{
+
+
+}
+
+
+
+.footer_menu{
+
+	width: 60%;
+	float: left;
+	
+}
+
+.footer_menu ul{
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footer_menu ul li{
+
+	list-style: none;
+	display: inline-block;
+}
+
+.footer_menu ul li a{
+
+	font-family: 'Arsenal', sans-serif;
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    padding: 18px 15px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.footer_menu ul li{
+
+	position: relative;
+}
+
+.footer_menu ul li a:hover{
+
+	color:#F56D6B; 
+}
+
+.footer_menu ul li:after{
+	position: absolute;
+	content: "/";
+	top: 50%;
+	right: -5px;
+	color: #F67675;
+	transform: translatey(-50%);
+	height: 23px;
+}
+
+.footer_menu ul li:last-child:after{
+
+	content: "";
+}
+
+.copy_right{
+	text-align: center;
+
+}
+
+.copy_right p{
+
+	color: #fff;
+	font-family: 'Arsenal', sans-serif;
+	font-size: 14px;
+}
+
+.up_arrow{
+
+	float: right;
+	width: 20%;
+	position: relative;
+}
+
+.up_arrow a{
+
+	position: absolute;
+    top: 30px;
+    right: 0;
+    font-size: 25px;
+}
+
+.up_arrow a i{
+
+	color: #fff;
+}
+
+
+
+/*******  top footer section end  *******/
+
+
+
+/*******  footer section start  *******/
+
+
+#footer_section{
+
+	padding: 16px 0;
+}
+
+.footer{}
+
+.social{
+
+	float: left;
+    width: 50%;
+}
+.social ul{
+
+	margin: 0;
+	padding: 0;
+}
+.social ul li{
+
+	float: left;
+	list-style: none;
+	display: block;
+}
+
+.social ul li a{
+
+	text-decoration: none;
+	padding: 6px 10px;
+	color: #333;
+	font-size: 16px;
+}
+
+.design_by{
+
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.design_by p{
+
+	font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: -14px;
+    right: 0;
+}
+
+.design_by a{
+
+	text-decoration: none;
+	color: #F67675;
+}
+
+
+
+/*******  footer section end  *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
